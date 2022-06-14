@@ -35,7 +35,7 @@
     body {
         background-color: rgb(15, 15, 15);
         /* transition: .8S; */
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .fixd {
@@ -60,6 +60,15 @@
         background: linear-gradient(90deg, transparent 0%, #fff 50%, transparent 100%);
         display: none;
 
+    }
+
+    .speace-light-2 {
+        width: 90%;
+        height: 2px;
+        background-color: #fff;
+        margin: 200px auto;
+        background: linear-gradient(90deg, transparent 0%, #fff 50%, transparent 100%);
+        display: none;
     }
 
     .color-gold {
@@ -108,11 +117,11 @@
 
 
     .grayscale {
-        filter: grayscale(90%)brightness(40%)blur(8px);
+        filter: grayscale(90%) brightness(40%) blur(5px);
     }
 
     .face-box-sh {
-        box-shadow: 0 0 50px black inset;
+        box-shadow: 0 0 100px black inset;
     }
 
     .sigle-color {
@@ -192,6 +201,7 @@
         max-width: 1280px;
         margin: 0px auto 300px auto;
         display: none;
+        /* display: block; */
 
     }
 
@@ -259,8 +269,9 @@
         /* clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%); */
         z-index: 98;
         border: 2px solid rgb(255, 255, 255);
-        box-shadow: 0 0 10px white inset;
         overflow: hidden;
+        border: 2px solid goldenrod;
+
         /* display: none; */
     }
 
@@ -271,7 +282,7 @@
         max-width: 1280px; */
         position: absolute;
         top: 0px;
-        background-color: rgba(0, 0, 0, 0.76);
+        background-color: rgba(0, 0, 0, 0.633);
         transition: 2.5s;
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
         /* clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%); */
@@ -280,6 +291,29 @@
         overflow: hidden;
         /* display: none; */
 
+    }
+
+    .top-face03 {
+        width: 99.5%;
+        height: 99.5vh;
+        /* min-width: 1280px;
+        max-width: 1280px; */
+        position: absolute;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.647);
+        transition: 2.5s;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        /* clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%); */
+        z-index: 98;
+        /* border: 2px solid goldenrod; */
+        overflow: hidden;
+        /* display: none; */
+
+    }
+
+    .top-face03 img {
+        width: 100%;
+        opacity: .5;
     }
 
     .dino-logo {
@@ -339,6 +373,10 @@
         border: 3px solid rgb(0, 0, 0);
 
 
+    }
+
+    .enter-text {
+        transition: .5s;
     }
 
     .enter:hover {
@@ -525,8 +563,6 @@
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         border-top: 2px solid rgb(255, 255, 255);
         border-bottom: 2px solid goldenrod;
-
-
     }
 
 
@@ -611,7 +647,7 @@
     .picture04 {
         width: 19%;
         height: 100%;
-        transform: skewX(-10deg)translateY(20px);
+        transform: skewX(-10deg) translateY(20px);
         margin-right: 1%;
         position: relative;
     }
@@ -977,49 +1013,48 @@
 
     .guns-show-img1:hover {
         filter: sepia(30%);
-        transform: translate(-30px, -30px)rotate(-2deg)scale(1.02);
+        transform: translate(-30px, -30px) rotate(-2deg) scale(1.02);
 
     }
 
     .guns-show-img2:hover {
         filter: sepia(30%);
-        transform: translate(-50px, -50px)rotate(-2deg)scale(1.02);
-
+        transform: translate(-50px, -50px) rotate(-2deg) scale(1.02);
     }
 
     .guns-show-img3:hover {
         filter: sepia(30%);
-        transform: translate(0px, -70px)rotate(-2deg)scale(1.02);
+        transform: translate(0px, -70px) rotate(-2deg) scale(1.02);
 
     }
 
     .guns-show-img4:hover {
         filter: sepia(30%);
-        transform: translate(40px, -120px)rotate(2deg)scale(1.02);
+        transform: translate(40px, -120px) rotate(2deg) scale(1.02);
 
     }
 
     .guns-show-img5:hover {
         filter: sepia(30%);
-        transform: translate(-40px, -60px)rotate(-1deg)scale(1.02);
+        transform: translate(-40px, -60px) rotate(-1deg) scale(1.02);
 
     }
 
     .guns-show-img6:hover {
         filter: sepia(30%);
-        transform: translate(40px, -70px)rotate(5deg)scale(1.02);
+        transform: translate(40px, -70px) rotate(5deg) scale(1.02);
 
     }
 
     .guns-show-img7:hover {
         filter: sepia(30%);
-        transform: translate(-80px, -80px)rotate(-1deg)scale(1.02);
+        transform: translate(-80px, -80px) rotate(-1deg) scale(1.02);
 
     }
 
     .guns-show-img8:hover {
         filter: sepia(30%);
-        transform: translate(40px, -70px)rotate(2deg)scale(1.02);
+        transform: translate(40px, -70px) rotate(2deg) scale(1.02);
 
     }
 
@@ -1032,13 +1067,13 @@
 
     .guns-show-img10:hover {
         filter: sepia(30%);
-        transform: translate(-50px, 10px)rotate(-3deg)scale(1.02);
+        transform: translate(-50px, 10px) rotate(-3deg) scale(1.02);
 
     }
 
     .guns-show-img11:hover {
         filter: sepia(30%);
-        transform: translate(-10px, 60px)rotate(2deg)scale(1.02);
+        transform: translate(-10px, 60px) rotate(2deg) scale(1.02);
 
     }
 
@@ -1487,7 +1522,7 @@
     }
 
     .muse-show:hover .guiter02 {
-        transform: translate(400px, 500px)scale(1.1);
+        transform: translate(400px, 500px) scale(1.1);
     }
 
     .muse-show:hover .guiter03 {
@@ -1496,12 +1531,12 @@
     }
 
     .muse-show:hover .guiter04 {
-        transform: translate(400px, 400px)scale(.8);
+        transform: translate(400px, 400px) scale(.8);
 
     }
 
     .muse-show:hover .guiter05 {
-        transform: translate(390px, 300px)scale(.8);
+        transform: translate(390px, 300px) scale(.8);
 
     }
 
@@ -1511,325 +1546,325 @@
     }
 
     .muse-show:hover .guiter07 {
-        transform: translate(372px, 86px)rotate(90deg);
+        transform: translate(372px, 86px) rotate(90deg);
     }
 
     .muse-show:hover .guiter08 {
-        transform: translate(320px, 250px)rotate(70deg);
+        transform: translate(320px, 250px) rotate(70deg);
 
     }
 
     .muse-show:hover .guiter09 {
-        transform: translate(360px, 250px)rotate(70deg);
+        transform: translate(360px, 250px) rotate(70deg);
 
     }
 
     .muse-show:hover .guiter10 {
-        transform: translate(460px, 360px)rotate(360deg);
+        transform: translate(460px, 360px) rotate(360deg);
 
     }
 
     .muse-show:hover .guiter11 {
-        transform: translate(460px, 150px)rotate(360deg);
+        transform: translate(460px, 150px) rotate(360deg);
 
     }
 
     .muse-show:hover .guiter12 {
-        transform: translate(350px, 120px)rotate(430deg)scale(.9);
+        transform: translate(350px, 120px) rotate(430deg) scale(.9);
     }
 
     .muse-show:hover .guiter13 {
-        transform: translate(350px, 170px)rotate(70deg);
+        transform: translate(350px, 170px) rotate(70deg);
 
     }
 
     .muse-show:hover .guiter14 {
-        transform: translate(332px, 172px)rotate(180deg);
+        transform: translate(332px, 172px) rotate(180deg);
 
     }
 
     .muse-show:hover .guiter15 {
-        transform: translate(385px, -150px)rotate(90deg);
+        transform: translate(385px, -150px) rotate(90deg);
 
     }
 
     .muse-show:hover .guiter16 {
-        transform: translate(375px, -170px)rotate(90deg)scale(1.3);
+        transform: translate(375px, -170px) rotate(90deg) scale(1.3);
 
     }
 
     .muse-show:hover .guiter17 {
-        transform: translate(385px, -150px)rotate(90deg);
+        transform: translate(385px, -150px) rotate(90deg);
 
     }
 
     .muse-show:hover .guiter18 {
-        transform: translate(388px, -138px)rotate(90deg)scale(1.2);
+        transform: translate(388px, -138px) rotate(90deg) scale(1.2);
 
 
     }
 
     .muse-show:hover .guiter19 {
-        transform: translate(372px, -123px)rotate(90deg)scale(1.2);
+        transform: translate(372px, -123px) rotate(90deg) scale(1.2);
 
     }
 
     .muse-show:hover .guiter20 {
-        transform: translate(368px, -40px)rotate(70deg)scale(1);
+        transform: translate(368px, -40px) rotate(70deg) scale(1);
 
     }
 
     .muse-show:hover .guiter21 {
-        transform: translate(358px, -40px)rotate(180deg)scale(.8);
+        transform: translate(358px, -40px) rotate(180deg) scale(.8);
 
 
     }
 
     .muse-show:hover .guiter22 {
-        transform: translate(388px, 25px)rotate(180deg)scale(1);
+        transform: translate(388px, 25px) rotate(180deg) scale(1);
 
     }
 
     .muse-show:hover .guiter23 {
-        transform: translate(340px, -50px)rotate(70deg)scale(1);
+        transform: translate(340px, -50px) rotate(70deg) scale(1);
 
     }
 
     .muse-show:hover .guiter24 {
-        transform: translate(367px, -478px)rotate(110deg)scale(.8);
+        transform: translate(367px, -478px) rotate(110deg) scale(.8);
 
     }
 
     .muse-show:hover .guiter25 {
-        transform: translate(370px, -478px)rotate(110deg)scale(.8);
+        transform: translate(370px, -478px) rotate(110deg) scale(.8);
 
     }
 
     .muse-show:hover .guiter26 {
-        transform: translate(362px, -478px)rotate(110deg)scale(.8);
+        transform: translate(362px, -478px) rotate(110deg) scale(.8);
 
     }
 
     .muse-show:hover .guiter27 {
-        transform: translate(210px, -106px)rotate(180deg)scale(1.5);
+        transform: translate(210px, -106px) rotate(180deg) scale(1.5);
     }
 
     .muse-show:hover .guiter28 {
-        transform: translate(347px, -560px)rotate(115deg)scale(.9);
+        transform: translate(347px, -560px) rotate(115deg) scale(.9);
 
     }
 
     .muse-show:hover .guiter29 {
-        transform: translate(340px, -559px)rotate(115deg)scale(.8);
+        transform: translate(340px, -559px) rotate(115deg) scale(.8);
 
     }
 
     .muse-show:hover .guiter30 {
-        transform: translate(328px, -552px)rotate(115deg)scale(.8);
+        transform: translate(328px, -552px) rotate(115deg) scale(.8);
 
     }
 
     .muse-show:hover .guiter31 {
-        transform: translate(270px, -282px)rotate(180deg)scale(1.1);
+        transform: translate(270px, -282px) rotate(180deg) scale(1.1);
 
     }
 
     .muse-show:hover .guiter32 {
-        transform: translate(265px, -272px)rotate(180deg)scale(1.1);
+        transform: translate(265px, -272px) rotate(180deg) scale(1.1);
 
     }
 
     .muse-show:hover .guiter33 {
-        transform: translate(230px, -222px)rotate(180deg)scale(1.1);
+        transform: translate(230px, -222px) rotate(180deg) scale(1.1);
     }
 
     .muse-show:hover .guiter34 {
-        transform: translate(386px, -608px)rotate(90deg)scale(.8);
+        transform: translate(386px, -608px) rotate(90deg) scale(.8);
 
     }
 
     .muse-show:hover .guiter35 {
-        transform: translate(383px, -530px)rotate(270deg)scale(1);
+        transform: translate(383px, -530px) rotate(270deg) scale(1);
 
     }
 
     .muse-show:hover .guiter36 {
-        transform: translate(380px, -370px)rotate(180deg)scale(.8);
+        transform: translate(380px, -370px) rotate(180deg) scale(.8);
 
     }
 
     .muse-show:hover .guiter37 {
-        transform: translate(383px, -530px)rotate(270deg)scale(1);
+        transform: translate(383px, -530px) rotate(270deg) scale(1);
     }
 
     /* -------------.guiter01 -------------------- */
 
     .muse-show:hover .guiter-2-01 {
-        transform: translate(-345px, 275px)rotate(100deg)scale(1);
+        transform: translate(-345px, 275px) rotate(100deg) scale(1);
 
     }
 
     .muse-show:hover .guiter-2-02 {
-        transform: translate(-330px, 455px)rotate(180deg)scale(1);
+        transform: translate(-330px, 455px) rotate(180deg) scale(1);
 
     }
 
     .muse-show:hover .guiter-2-03 {
-        transform: translate(-365px, 518px)rotate(180deg)scale(1);
+        transform: translate(-365px, 518px) rotate(180deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-04 {
-        transform: translate(-345px, 375px)rotate(360deg)scale(1);
+        transform: translate(-345px, 375px) rotate(360deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-05 {
-        transform: translate(-319px, 403px)rotate(360deg)scale(1);
+        transform: translate(-319px, 403px) rotate(360deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-06 {
-        transform: translate(-263px, 395px)rotate(180deg)scale(1);
+        transform: translate(-263px, 395px) rotate(180deg) scale(1);
 
     }
 
     .muse-show:hover .guiter-2-07 {
-        transform: translate(-248px, 405px)rotate(180deg)scale(1);
+        transform: translate(-248px, 405px) rotate(180deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-08 {
-        transform: translate(-426px, 370px)rotate(360deg)scale(1);
+        transform: translate(-426px, 370px) rotate(360deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-09 {
-        transform: translate(-326px, 345px)rotate(360deg)scale(1);
+        transform: translate(-326px, 345px) rotate(360deg) scale(1);
 
     }
 
     .muse-show:hover .guiter-2-10 {
-        transform: translate(-425px, 350px)rotate(360deg)scale(1);
+        transform: translate(-425px, 350px) rotate(360deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-11 {
-        transform: translate(-325px, 343px)rotate(180deg)scale(.9);
+        transform: translate(-325px, 343px) rotate(180deg) scale(.9);
 
     }
 
     .muse-show:hover .guiter-2-12 {
-        transform: translate(-378px, 200px)rotate(360deg)scale(1.1);
+        transform: translate(-378px, 200px) rotate(360deg) scale(1.1);
     }
 
     .muse-show:hover .guiter-2-13 {
-        transform: translate(-409px, 270px)rotate(360deg)scale(1.1);
+        transform: translate(-409px, 270px) rotate(360deg) scale(1.1);
 
     }
 
     .muse-show:hover .guiter-2-14 {
-        transform: translate(-468px, 230px)rotate(390deg)scale(1.1);
+        transform: translate(-468px, 230px) rotate(390deg) scale(1.1);
 
     }
 
     .muse-show:hover .guiter-2-15 {
-        transform: translate(-409px, 193px)rotate(360deg)scale(1.1);
+        transform: translate(-409px, 193px) rotate(360deg) scale(1.1);
 
     }
 
     .muse-show:hover .guiter-2-16 {
-        transform: translate(-465px, 163px)rotate(360deg)scale(1);
+        transform: translate(-465px, 163px) rotate(360deg) scale(1);
 
     }
 
     .muse-show:hover .guiter-2-17 {
-        transform: translate(-290px, 58px)rotate(180deg)scale(1);
+        transform: translate(-290px, 58px) rotate(180deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-18 {
-        transform: translate(-280px, 10px)rotate(180deg)scale(.8);
+        transform: translate(-280px, 10px) rotate(180deg) scale(.8);
     }
 
     .muse-show:hover .guiter-2-19 {
-        transform: translate(-242px, 50px)rotate(180deg)scale(1);
+        transform: translate(-242px, 50px) rotate(180deg) scale(1);
 
     }
 
     .muse-show:hover .guiter-2-20 {
-        transform: translate(-442px, 58px)rotate(295deg)scale(1);
+        transform: translate(-442px, 58px) rotate(295deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-21 {
-        transform: translate(-370px, 68px)rotate(180deg)scale(1);
+        transform: translate(-370px, 68px) rotate(180deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-22 {
-        transform: translate(-300px, -2px)rotate(180deg)scale(1.1);
+        transform: translate(-300px, -2px) rotate(180deg) scale(1.1);
 
     }
 
     .muse-show:hover .guiter-2-23 {
-        transform: translate(-448px, 32px)rotate(295deg)scale(1.1);
+        transform: translate(-448px, 32px) rotate(295deg) scale(1.1);
     }
 
     .muse-show:hover .guiter-2-24 {
-        transform: translate(-295px, -80px)rotate(285deg)scale(1.2);
+        transform: translate(-295px, -80px) rotate(285deg) scale(1.2);
 
     }
 
     .muse-show:hover .guiter-2-25 {
-        transform: translate(-442px, -245px)rotate(65deg)scale(1);
+        transform: translate(-442px, -245px) rotate(65deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-26 {
-        transform: translate(-352px, -240px)rotate(278deg)scale(1);
+        transform: translate(-352px, -240px) rotate(278deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-27 {
-        transform: translate(-430px, -290px)rotate(65deg)scale(1);
+        transform: translate(-430px, -290px) rotate(65deg) scale(1);
     }
 
     .muse-show:hover .guiter-2-28 {
-        transform: translate(-420px, -320px)rotate(65deg)scale(1.2);
+        transform: translate(-420px, -320px) rotate(65deg) scale(1.2);
     }
 
     .muse-show:hover .guiter-2-29 {
-        transform: translate(-370px, -320px)rotate(65deg)scale(1.2);
+        transform: translate(-370px, -320px) rotate(65deg) scale(1.2);
 
     }
 
     .muse-show:hover .guiter-2-30 {
-        transform: translate(-370px, -320px)rotate(65deg)scale(1.2);
+        transform: translate(-370px, -320px) rotate(65deg) scale(1.2);
 
     }
 
     .muse-show:hover .guiter-2-31 {
-        transform: translate(-311px, -725px)rotate(105deg)scale(.9);
+        transform: translate(-311px, -725px) rotate(105deg) scale(.9);
 
     }
 
     .muse-show:hover .guiter-2-32 {
-        transform: translate(-311px, -725px)rotate(105deg)scale(.9);
+        transform: translate(-311px, -725px) rotate(105deg) scale(.9);
 
     }
 
     .muse-show:hover .guiter-2-33 {
-        transform: translate(-317px, -725px)rotate(105deg)scale(.9);
+        transform: translate(-317px, -725px) rotate(105deg) scale(.9);
 
     }
 
     .muse-show:hover .guiter-2-34 {
-        transform: translate(-250px, -367px)rotate(180deg)scale(1.2);
+        transform: translate(-250px, -367px) rotate(180deg) scale(1.2);
 
     }
 
     .muse-show:hover .guiter-2-35 {
-        transform: translate(-375px, -430px)rotate(35deg)scale(1.2);
+        transform: translate(-375px, -430px) rotate(35deg) scale(1.2);
 
     }
 
     .muse-show:hover .guiter-2-36 {
-        transform: translate(-350px, -490px)rotate(90deg)scale(1.2);
+        transform: translate(-350px, -490px) rotate(90deg) scale(1.2);
 
     }
 
     .muse-show:hover .guiter-2-37 {
-        transform: translate(-380px, -488px)rotate(35deg)scale(1);
+        transform: translate(-380px, -488px) rotate(35deg) scale(1);
 
     }
 
@@ -1946,6 +1981,28 @@
         left: 0;
     }
 
+    .skrillex-logoshow-box01 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 2px solid rgb(0, 255, 72);
+        transition: .8s;
+    }
+
+    .skrillex-logoshow-box02 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 2px solid rgb(95, 215, 252);
+        transition: .8s;
+
+    }
+
+
     .skrillex-logoshow2 {
         width: 100%;
         height: 100%;
@@ -1956,6 +2013,19 @@
         top: 0;
         left: 0;
         transition: .8s;
+    }
+
+    .skrillex-show01-img:hover .skrillex-logoshow-box02 {
+        transform: rotate(180deg) scale(1);
+        box-shadow: 0 0 10px rgb(0, 255, 72) inset;
+
+
+    }
+
+    .skrillex-show01-img:hover .skrillex-logoshow-box01 {
+        transform: rotate(-225deg) scale(1.05);
+        box-shadow: 0 0 10px rgb(1, 218, 252) inset;
+
     }
 
     .skrillex-line01 {
@@ -2123,11 +2193,13 @@
 
 
     }
+
     .skrillex-show02-img:hover .button {
         opacity: 1;
 
 
     }
+
     .skrillex-show02-img:hover .button02 {
         opacity: 1;
 
@@ -3043,7 +3115,7 @@
         width: 60px;
         height: 40px;
         background-color: rgb(248, 0, 252);
-        box-shadow: 0 0 10px rgb(248, 0, 252) ;
+        box-shadow: 0 0 10px rgb(248, 0, 252);
         margin: 20px auto;
         border-radius: 20px;
         text-align: center;
@@ -3095,6 +3167,8 @@
 
     .michael-jackson-show01-box:hover .michael-jackson-about {
         opacity: 1;
+        box-shadow: 0 0 10px inset white;
+        border: 2px solid white;
     }
 
     .michael-jackson-show01-img {
@@ -3132,6 +3206,7 @@
         letter-spacing: 1px;
         opacity: 0;
         transition: 1.5s;
+        padding: 10px;
         /* margin-bottom: 100px; */
     }
 
@@ -3370,7 +3445,7 @@
     .background-attachment {
         width: 100%;
         height: 100vh;
-        background: url(./Interim-report-img/Music/chopin/Chopin-bg01.jpeg)center center / cover no-repeat;
+        background: url(./Interim-report-img/Music/chopin/Chopin-bg01.jpeg) center center / cover no-repeat;
         background-attachment: fixed;
         filter: sepia(50%);
         position: relative;
@@ -3564,9 +3639,9 @@
         height: 33.33%;
         background-color: rgb(53, 53, 53);
         /* filter: grayscale(90%)brightness(40%); */
-        outline: solid white;
         position: relative;
         overflow: hidden;
+        border: 1px solid goldenrod;
 
     }
 
@@ -3575,7 +3650,7 @@
         height: 100%;
 
         object-fit: cover;
-        outline: solid white;
+        outline: solid goldenrod;
     }
 
     .face-mv1 video {
@@ -3589,8 +3664,8 @@
         width: 35%;
         height: 100%;
         object-fit: cover;
-        outline: solid white;
-
+        outline: solid goldenrod;
+        z-index: 100;
     }
 
     .face-mv2 video {
@@ -3604,7 +3679,8 @@
         width: 35%;
         height: 100%;
         object-fit: cover;
-        outline: solid white;
+        outline: solid goldenrod;
+        z-index: 100;
 
     }
 
@@ -3620,6 +3696,8 @@
     .face-mv4 {
         width: 100%;
         height: 100%;
+        outline: solid goldenrod;
+        z-index: 110;
 
         object-fit: cover;
     }
@@ -3628,6 +3706,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+
 
     }
 
@@ -3743,9 +3822,346 @@
     .cute-jerry img {
         width: 100%;
     }
+
+    .top-face04 {
+        display: none;
+    }
+
+    .container03 {
+        display: none;
+    }
+
+
+    @media screen and (max-width: 650px) {
+        .top-face {
+            display: none;
+        }
+
+        .top-face02 {
+            display: none;
+        }
+
+        .enter {
+            display: none;
+        }
+
+        .top-post-box {
+            display: none;
+        }
+
+        .container {
+            width: 0%;
+            margin: 0px auto 300px auto;
+            /* display: none; */
+            /* display: block; */
+            display: none;
+
+        }
+
+        .container02 {
+            width: 0%;
+            margin: 0px auto 300px auto;
+            /* display: none; */
+            /* display: block; */
+            display: none;
+
+        }
+
+        .container03 {
+            width: 100%;
+            position: relative;
+            display: block;
+        }
+
+        .speace-light-2 {
+            width: 90%;
+            height: 2px;
+            background-color: #fff;
+            margin: 200px auto;
+            background: linear-gradient(90deg, transparent 0%, #fff 50%, transparent 100%);
+            display: block;
+        }
+
+
+        .top-face04 {
+            width: 99.5%;
+            height: 99.5vh;
+            /* min-width: 1280px;
+        max-width: 1280px; */
+            position: absolute;
+            top: 0px;
+            background-color: rgba(0, 0, 0, 0.76);
+            transition: 2.5s;
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+            /* clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%); */
+            z-index: 98;
+            border: 2px solid rgb(255, 255, 255);
+            box-shadow: 0 0 10px white inset;
+            overflow: hidden;
+            display: block;
+        }
+
+        .dino-logo2 {
+            /* width: 30%; */
+            width: 90%;
+            height: 200px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            background-color: rgba(0, 0, 0, 0.616);
+            text-align: center;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid goldenrod;
+        }
+
+
+        .guns-100logo {
+            width: 90%;
+            margin: 30px auto 0 auto;
+
+        }
+
+        .guns-100logo img {
+            width: 100%;
+            margin: 50px auto;
+        }
+
+        .guns-100logo-about {
+            margin: 0px auto 50px auto;
+            width: 90%;
+            color: aliceblue;
+            text-align: center;
+            line-height: 1.5em;
+
+        }
+
+        .guns-100video {
+            width: 90%;
+            margin: auto;
+        }
+
+        .guns-100video video {
+            width: 100%;
+        }
+
+        .guns-text {
+            width: 80%;
+            height: 200px;
+            margin: 20px auto;
+            padding: 0 10px;
+
+        }
+
+        .w30 {
+            width: 50%;
+        }
+
+        .mobio {
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .mobi-nav {
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            display: flex;
+            position: fixed;
+            top: 0;
+            justify-content: center;
+            align-items: center;
+            color: goldenrod;
+            border-bottom: 2px solid goldenrod;
+            z-index: 101;
+            background-color: rgb(0, 0, 0);
+        }
+
+
+    }
 </style>
 
 <body>
+    </div>
+    <div class="container03">
+        <div class="row">
+            <div class="mobi-nav">
+                <p> Paradise City
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container03">
+        <div class="row">
+            <div class="enter">
+                <p class="enter-text">Enter</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container03">
+        <div class="row">
+            <div class="guns-100logo">
+                <img src="./Interim-report-img/Music/guns/guns-logo08.png" alt="">
+            </div>
+            <div class="guns-100logo-about">
+                The history of Guns N Roses <br>
+                To truly understand the meaning behind the Guns N Roses logo one must have a sense of the
+                history of the band, their members and their joint mission.
+            </div>
+            <div class="guns-100video">
+                <video src="./Interim-report-img/Music/guns/guns-mv01.mov"></video>
+            </div>
+            <div class="guns-text"> <span class="guns-text-name">Sweet Child O' Mine </span> <br> <br>She's got
+                a smile that it seems to me
+                Reminds me of childhood memories <br>
+                Where everything was as fresh as the bright blue sky</div>
+            <div class="guns-100video">
+                <video src="./Interim-report-img/Music/guns/guns-mv02.mov"></video>
+            </div>
+            <div class="guns-text"><span class="guns-text-name">Patience</span> <br> <br> Said woman take it
+                slow and things will be just fine <br>
+                You and I'll just use a little blue sky</div>
+            <div class="guns-100video">
+                <video src="./Interim-report-img/Music/guns/guns-mv03.mov"></video>
+            </div>
+            <div class="guns-text"><span class="guns-text-name">Paradise City</span> <br> <br>Take me down to
+                the paradise city <br>
+                Where the grass is green and the girls are pretty <br>
+                Take me home </div>
+            blue sky
+        </div>
+    </div>
+    <div class="speace-light-2"></div>
+    <div class="container03">
+        <div class="row">
+            <div class="guns-100logo">
+                <img src="./Interim-report-img/Music/muse/muse-logo09.png" alt="">
+            </div>
+            <div class="guns-100logo-about">
+                Muse are an English rock band from Teignmouth, <br> Devon, formed in 1994. <br> The band
+                consists of
+                Matt Bellamy <br> (lead vocals, guitar, keyboards) <br> Chris Wolstenholme <br> (bass guitar,
+                backing
+                vocals) <br> Dominic Howard <br> (drums).
+                their joint mission.
+            </div>
+            <div class="guns-text"> <span class="guns-text-name">Madness</span> <br> <br>
+                Come to me.
+                Trust in a dream.
+                Come on and rescue me <br>
+                Yes I know, I can be wrong <br>
+                And maybe I'm too headstrong <br>
+                Our love is
+                Madness.
+            </div>
+
+            <div class="guns-100video">
+                <video src="./Interim-report-img/Music/muse/muse-about-mv03.mov" autoplay loop muted></video>
+            </div>
+            <div class="guns-text"> <span class="guns-text-name">Mercy</span> <br> <br> Show me mercy, can someone
+                rescue me? <br>
+                Show me mercy <br>
+                Show me mercy, please <br>
+            </div>
+
+
+            <div class="guns-100video">
+                <video src="./Interim-report-img/Music/muse/muse-about-mv04.mov" autoplay loop muted></video>
+            </div>
+            <div class="guns-text"> <span class="guns-text-name">Sweet Child O' Mine </span> <br> <br> Wake to see
+                <br>
+                Your true emancipation is a fantasy <br>
+                Policies <br>
+                Have risen up and overcome the brave
+            </div>
+
+
+            <div class="guns-100video">
+                <video src="./Interim-report-img/Music/muse/muse-about-mv02.mov" autoplay loop muted></video>
+            </div>
+        </div>
+    </div>
+    <div class="speace-light-2"></div>
+    <div class="container03">
+        <div class="row">
+            <div class="guns-100logo">
+                <img src="./Interim-report-img/Music/skrillix/skrillex-logo-01.png" alt="">
+            </div>
+            <div class="guns-100logo-about">
+                Sonny John Moore <br> (born January 15, 1988) <br> known professionally as Skrillex, is an American
+                DJ, record producer, musician, singer and songwriter. Growing up in Northeast Los Angeles and in
+                Northern California
+            </div>
+            <div class="guns-100video">
+                <video src="./Interim-report-img/Music/skrillix/skrilex-mv001.mov" autoplay loop muted></video>
+            </div>
+
+        </div>
+    </div>
+    <div class="speace-light-2"></div>
+    <div class="container03">
+        <div class="row">
+            <div class="guns-100logo">
+                <img src="./Interim-report-img/Music/michael-jackson/7289eacb94fe1ad84604fee6a6d6220c.jpeg" alt="">
+            </div>
+            <div class="guns-100logo-about">
+                Michael Joseph Jackson <br> (August 29, 1958 – June 25, 2009) <br> was an American singer, songwriter,
+                and
+                dancer. <br> Dubbed the "King of Pop", he is regarded as one of the most significant
+                cultural
+                figures
+                of
+                the 20th century.
+            </div>
+            <div class="guns-100video">
+                <video src="./Interim-report-img/Music/michael-jackson/mj-mv01.mov" autoplay loop muted></video>
+            </div>
+
+        </div>
+    </div>
+    <div class="speace-light-2"></div>
+
+    <div class="container03">
+        <div class="row">
+            <div class="guns-100logo">
+                <img src="./Interim-report-img/Music/chopin/Chopin-about01.jpeg" alt="">
+            </div>
+            <div class="guns-100logo-about">
+                Frédéric François Chopin <br>(born Fryderyk Franciszek Chopin1 March 1810 – 17
+                October 1849) <br> was a Polish composer and virtuoso pianist of the Romantic period who wrote
+                primarily for solo piano.
+            </div>
+            <div class="guns-100logo">
+                <img src="./Interim-report-img/Music/chopin/chpoin-show-img03.png" alt="">
+            </div>
+            <div class="guns-100logo-about">
+                The Polonaise in A♭ major, Op. 53 <br> (French: Polonaise héroïque, Heroic
+                Polonaise; Polish: Heroiczny) </div>
+        </div>
+    </div>
+    <div class="speace-light-2"></div>
+    <div class="container03">
+        <div class="row">
+            <div class="mobio">
+                This is footer
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-----------------------------------  -->
+
+
     <nav class="navbar">
         <p>
             Tom is a good cat
@@ -3869,14 +4285,14 @@
         <img class="tom-jerry-l" src="./Interim-report-img/Music/tom-jerry/tom-jerry-run-l-2.png" alt="">
     </div>
     <div class="enter">
-        <p>Enter</p>
+        <p class="enter-text">Enter</p>
     </div>
     <div class="top-face02 face-box-sh">
         <div class="dino-logo2">
             <div class="dino-logo">
                 <p>
                     Take me down to
-                    the <span class="color-gold">paradise city</span><br>
+                    the <span class="color-gold">Paradise city</span><br>
                     Where the grass is green and the girls are pretty
                 </p>
             </div>
@@ -4204,6 +4620,10 @@
                     <div class="skrillex-show01-img">
                         <img class="skrillex-show01-bg"
                             src="./Interim-report-img/Music/skrillix/skriilex-logoshow-.jpeg" alt="">
+                        <!-- <div class="skrillex-logoshow-box01">
+                        </div> -->
+                        <div class="skrillex-logoshow-box02">
+                        </div>
                         <div class="skrillex-logoshow">
                             <div class="skrillex-line01"></div>
                             <div class="skrillex-line02"></div>
@@ -4518,6 +4938,7 @@
         </p>
     </footer>
 
+
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script>
         $(window).scroll(function () {
@@ -4591,6 +5012,7 @@
             $('.top-post-box').css('height', '800px');
             $('.tom-jerry-run-2').css('transform', 'translate(1000%,-480%)rotate(-90deg)');
             $('body').css('overflow', 'auto');
+            $('.enter-text').css('transform', 'scale(1.2)');
         })
         $('.enter').hover(function () {
             $('.top-face02').css('clip-path', 'polygon(0 0, 0 100%, 100% 100%, 0% 100%)');
